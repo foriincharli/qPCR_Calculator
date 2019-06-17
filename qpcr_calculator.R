@@ -1,5 +1,5 @@
 #### dCT summary stats ####
-ref = "AtCyc"
+ref = "name_reference_gene"
 
 dat2 <- dat1 %>% 
   group_by(Rep, Sample.Name, Target.Name) %>% 
